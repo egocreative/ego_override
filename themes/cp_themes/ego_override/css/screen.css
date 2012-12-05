@@ -1,0 +1,39 @@
+/* Publish Bar Tweaks */
+#mainContent #publishForm {
+  padding-top: 0 !important;
+}
+
+#mainContent #showToolbarLink {
+	right:10px;
+}
+#mainContent #publish-bar-top {
+	right:0px;
+	top:-36px;
+}
+
+#mainContent #publish-bar-top li {
+	margin-right:0;
+}
+
+#mainContent #publish-bar-top li:first-child,
+#mainContent #publish-bar-top li:last-child {
+	margin-right:10px;
+}
+
+/* EGO FIX FOR MULTISITE MOUSEOUT BUG */
+#navigationTabs > li.msm_sites {
+  border: none;
+  margin-right: 0;
+	padding-left:80px;
+}
+#navigationTabs > li.msm_sites ul {
+	right:0px !important;
+}
+
+/* Dashee tweaks */
+#dashListing {
+	height:auto !important;
+}
+.widget .widget-content {
+	border-radius: 0 !important;
+}
